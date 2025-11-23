@@ -9,6 +9,7 @@ export default function PostModal({ onClose, onSubmit }: any) {
       <div className="bg-white p-6 rounded-lg w-96">
         <h2 className="font-bold text-xl mb-4">Create Post</h2>
 
+        // "form"
         <input className="border p-2 w-full mb-3"
           placeholder="Title" value={title}
           onChange={(e) => setTitle(e.target.value)}
