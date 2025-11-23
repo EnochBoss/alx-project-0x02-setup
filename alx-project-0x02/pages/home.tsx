@@ -1,3 +1,6 @@
+import Card from "../components/common/Card";
+
+<>
 <Card title="First Card" content="This is card one." />
 <Card title="Second Card" content="This is card two." />
 
@@ -13,6 +16,8 @@ const [open, setOpen] = useState(false);
 />
 
 <button onClick={() => setOpen(true)}>Open Modal</button>
+
+</>
 
 import Header from "@/components/layout/Header";
 <Header />
