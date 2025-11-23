@@ -1,5 +1,5 @@
-import Header from "../components/layout/Header";
 import PostCard from "../components/common/PostCard";
+import Header from "@/components/layout/Header";
 
 export default function Posts({ posts }: any) {
   return (
