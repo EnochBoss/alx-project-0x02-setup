@@ -1,10 +1,14 @@
 import Header from "@/components/layout/Header";
 <Header />
+import Button from "@/components/common/Button"
+
+
 export default function About() {
   return (
     <>
       <Header />
       <h1 className="text-2xl font-bold p-6">About Page</h1>;
+      <Button />
     </>
   );
 }
