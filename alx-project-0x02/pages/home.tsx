@@ -1,4 +1,5 @@
 import Card from "../components/common/Card";
+// "@/components/common/Card"
 
 <>
 <Card title="First Card" content="This is card one." />
